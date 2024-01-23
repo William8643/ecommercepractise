@@ -3,7 +3,7 @@
 <head>
 <style>
 body {
-  background-color: lightblue;
+  background-color: rgb(33, 155, 196);
   color: white;
   height: 36px;
   border: none;
