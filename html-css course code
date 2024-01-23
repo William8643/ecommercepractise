@@ -4,6 +4,12 @@
 <style>
 body {
   background-color: lightblue;
+  color: white;
+  height: 36px;
+  border: none;
+  width: 100px;
+
+
 }
 
 h1 {
@@ -24,6 +30,7 @@ p {
 
 </body>
 </html>
+
 
 
 
