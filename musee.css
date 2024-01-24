@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
+
+
+
 <style>
 body {
   background-color: lightblue;
@@ -15,14 +15,65 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
-</style>
-</head>
-<body>
 
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
 
-</body>
-</html>
+.main{
+    width: 100%;
+    background: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) url(new\ 1.html);
+    background-image: blue;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 120px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: auto;
+}
+
+.logo{
+    color: orchid;
+    font-size: 35px;
+
+}
+
+.menu{
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+    
+
+
 
 
