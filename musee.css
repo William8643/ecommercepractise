@@ -1,7 +1,7 @@
 
 
 
-<style>
+style
 body {
   background-color: lightblue;
 }
@@ -19,7 +19,7 @@ p {
 
 .main{
     width: 100%;
-    background: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) url(new\ 1.html);
+    background: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) url(new);
     background-image: blue;
     background-position: center;
     background-size: cover;
@@ -69,7 +69,26 @@ p {
     color: #fff;
     font-family: Arial;
     font-weight: bold;
+    transition: 0.4s ease-in-out;
 
+}
+
+.ul li a :hover{
+    color: orangered;
+
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
 }
 
     
