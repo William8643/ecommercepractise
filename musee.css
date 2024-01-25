@@ -13,18 +13,18 @@ body
     height: 109vh;
 }
 .navbar{
-    width: 120px;
+    width: 100px;
     height: 75px;
     margin: auto;
 }
 .icon{
-    width: 200px;
+    width: 150px;
     float: left;
     height: auto;
 }
 
 .logo{
-    color: orchid;
+    color: #3097b1;
     font-size: 35px;
 
 }
@@ -105,8 +105,28 @@ body
 .srch :focus{
     outline: none;
 }
-    
 
+.content{
+    width: 1200px; ;
+    height: auto;
+    margin: auto;
+    color:blue;
+    position: relative;
+}
+    
+.content.par{
+    padding-left: 25px;
+    padding-top: 20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: Arial;
+    font-size: 50px;
+    padding-left: 20px;
+}
 
 
     
