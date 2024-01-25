@@ -76,7 +76,38 @@ body
     width: 200px;
     height: 40px;
     background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn :focus{
+    outline: none;
+}
+
+.srch :focus{
+    outline: none;
+}
+    
+
+
 
     
 
