@@ -152,6 +152,11 @@ body
     background-color: #fff;
 }
 
+.content span{
+    color: orangered;
+    font-size: 60px;
+}
+
 
     
 
