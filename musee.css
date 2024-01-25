@@ -189,4 +189,18 @@ body
     border-right:2cm;
     border-left: 2cm;
     color:blueviolet;
+    font-size: 10px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    column-rule-color: blueviolet;
+    font-family: Arial;
 }
