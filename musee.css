@@ -87,7 +87,7 @@ body
 }
 
 .btn{
-    width: 200px;
+    width: 100px;
     height: 40px;
     background: orange;
     border: 2px solid orange;
@@ -140,6 +140,16 @@ body
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
 }
 
 
