@@ -156,7 +156,7 @@ ul li a:hover{
 .form{
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top, black)50%,black;
+    background: linear-gradient(to top, 0,0,0,0.8)50%, rgba(0,0,0,0.8);
     position: relative;
     top: -20px;
     left: 870px;
@@ -201,7 +201,7 @@ ul li a:hover{
     font-family: Arial;
 }
 
-.btn{
+.btnn{
     width: 50px;
     height: 25px;
     background: #ff7200;
@@ -209,4 +209,15 @@ ul li a:hover{
     font-size: 15px;
     border: 15px;
     cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.buttn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
 }
