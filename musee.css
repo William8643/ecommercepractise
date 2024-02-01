@@ -77,7 +77,28 @@ body{
   flex-direction: row;
   justify-content: space-around;
   line-height: 60px;
+  z-index: 100;
 }
+.logo{
+  font-size: 25px;
+  font-weight: 900;
+}
+.right-links{
+  padding: 0 10px;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 60px;
+}
+.main-box{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+
 
 
  
