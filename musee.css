@@ -12,7 +12,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 90vh;
+  min-height: 90vh;
 }
 .box{
   background: white;
@@ -67,6 +67,16 @@ body{
 }
 .link{
   margin-bottom: 15px;
+}
+
+/********* Home *************/
+
+.nav{
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 60px;
 }
 
 
